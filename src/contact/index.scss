@@ -1,0 +1,173 @@
+.section-book {
+  height: 100vh;
+  padding: 5rem 10rem;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-secondary),
+    var(--color-main)
+  );
+}
+
+.book {
+  background-image: linear-gradient(
+      80deg,
+      rgba(#000, 0.7) 0%,
+      rgba(#000, 0.7) 50%,
+      transparent 50%
+    ),
+    url(../assets/img5.jpg);
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(var(--color-black), 0.2);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  animation: backInUp 2s ease-in;
+
+  &__form {
+    width: 60%;
+    padding: 2rem 6rem 0 6rem;
+    color: var(--color-grey-2);
+  }
+}
+.form_element1 {
+  padding: 0.5rem 10px;
+  background-color: var(--color-primary);
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  color: var(--color-grey-2);
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.form_element {
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 90%;
+  background-color: var(--color-primary);
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  color: var(--color-grey-2);
+  border-radius: 5px;
+}
+
+.form_element:hover {
+  outline: 2px solid var(--color-secondary);
+}
+.form_element1:hover {
+  outline: 2px solid var(--color-secondary);
+}
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    var(--color-secondary),
+    var(--color-primary)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
+  background-clip: text;
+}
+.form_textarea {
+  width: 90%;
+  height: 8rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  color: var(--color-grey-2);
+  background-color: var(--color-primary);
+}
+.form_textarea:hover {
+  outline: none;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important;
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+
+  a {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1.2rem;
+
+    svg {
+      width: inherit;
+      height: inherit;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .section-book {
+    padding: 4rem 2rem;
+    height: fit-content;
+    font-size: 1rem;
+  }
+  .book {
+    &__form {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(#000, 0.7) 0%,
+          rgba(#000, 0.7) 100%,
+          transparent 50%
+        ),
+        url(../assets/img5.jpg);
+      background-position: center;
+      width: 100%;
+      padding: 20px 20px;
+    }
+  }
+  .form_element1 {
+    display: block;
+    width: 90%;
+  }
+}
+@media (max-width: 961px) and (min-width: 601px) {
+  .section-book {
+    height: fit-content;
+    font-size: 1rem;
+    padding: 20px 5px;
+  }
+  .book {
+    &__form {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(#000, 0.7) 0%,
+          rgba(#000, 0.7) 100%,
+          transparent 50%
+        ),
+        url(../assets/img5.jpg);
+      background-position: center;
+      width: 100%;
+    }
+  }
+  .form_element1 {
+    display: block;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1281px) and (min-width: 962px) {
+  .section-book {
+    padding: 5rem 1rem;
+  }
+  .form_element1 {
+    display: block;
+    width: 90%;
+  }
+}
