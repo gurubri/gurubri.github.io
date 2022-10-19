@@ -2,7 +2,7 @@
   "name": "colorgen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gurubri.github.io/brian",
+  "homepage": "https://gurubri.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
