@@ -8,10 +8,7 @@
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 10rem;
-  padding-bottom: 5rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding: 10rem 10rem;
 }
 .about-container .right-about {
   display: grid;

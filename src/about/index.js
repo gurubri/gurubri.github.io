@@ -27,10 +27,9 @@ const About = () => {
                   student. <br /> <br /> I recently just graduated from
                   university
                   <span>(21st MKU graduation)</span> with my diploma in
-                  information technology. I'm more experinced with javascript it
-                  being my first programming language, not to mention all the
-                  different Js frameworks i've learned over the years for a full
-                  list please reach out and learn more about me.
+                  information technology. I'm experienced with javascript, it
+                  being my first programming language and all Js frameworks ie.
+                  NextJS, ReactJ e.t.c.
                 </p>
               </div>
               <div className="right-about">
