@@ -1,5 +1,6 @@
 import "./index.scss";
 import React, { useEffect, useState } from "react";
+import Brian from "../assets/briancv.pdf";
 
 const About = () => {
   const [loading, setloading] = useState(true);
@@ -17,6 +18,12 @@ const About = () => {
         <>
           <div className="about-page">
             <div className="about-container">
+              <button
+                className="download-cv"
+                onClick={() => window.open(Brian, "_blank")}
+              >
+                Download CV
+              </button>
               <div className="left-about">
                 <h4>Information Available About me</h4>
                 <p>

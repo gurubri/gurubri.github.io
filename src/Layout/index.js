@@ -43,7 +43,7 @@ const Layout = () => {
       </div>
       <div
         className="theme-btn"
-        onClick={() => document.body.classList.toggle("light-mode")}
+        onClick={() => document.body.classList.toggle("dark-mode")}
       >
         <FontAwesomeIcon icon={faAdjust} />
       </div>
