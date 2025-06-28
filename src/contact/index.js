@@ -19,7 +19,7 @@ const Contact = () => {
     setloading(true);
     emailjs
       .sendForm(
-        "service_ui7lddt",
+        "service_0hmyshb",
         "template_lvux01y",
         refForm.current,
         "Byb8uFvgChrUXLyH_"
@@ -29,8 +29,9 @@ const Contact = () => {
           alert("Message successfully sent!");
           window.location.reload(false);
         },
-        () => {
+        (error) => {
           alert("Failed to send the message, please try again");
+          console.log(error.text);
         }
       );
     setloading(false);
